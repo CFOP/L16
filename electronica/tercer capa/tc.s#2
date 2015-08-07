@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -7021,9 +7021,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="111.76" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="3"/>
-<wire x1="129.54" y1="132.08" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
-<label x="116.84" y="132.08" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="2"/>
+<wire x1="137.16" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
+<label x="142.24" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP2" class="0">
@@ -7033,9 +7033,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="109.22" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="5"/>
-<wire x1="129.54" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
-<label x="116.84" y="129.54" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="3"/>
+<wire x1="129.54" y1="132.08" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
+<label x="116.84" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP3" class="0">
@@ -7045,9 +7045,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="106.68" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="7"/>
-<wire x1="129.54" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
-<label x="116.84" y="127" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="4"/>
+<wire x1="137.16" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
+<label x="142.24" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP4" class="0">
@@ -7057,9 +7057,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="104.14" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="9"/>
-<wire x1="129.54" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
-<label x="116.84" y="124.46" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="5"/>
+<wire x1="129.54" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<label x="116.84" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP5" class="0">
@@ -7069,9 +7069,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="101.6" y="109.22" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="11"/>
-<wire x1="129.54" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
-<label x="116.84" y="121.92" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="6"/>
+<wire x1="137.16" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
+<label x="142.24" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP6" class="0">
@@ -7081,9 +7081,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="101.6" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="12"/>
-<wire x1="137.16" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<label x="142.24" y="121.92" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="7"/>
+<wire x1="129.54" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<label x="116.84" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP7" class="0">
@@ -7093,9 +7093,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="106.68" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="10"/>
-<wire x1="137.16" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
-<label x="142.24" y="124.46" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="8"/>
+<wire x1="137.16" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
+<label x="142.24" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP8" class="0">
@@ -7105,9 +7105,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="111.76" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="8"/>
-<wire x1="137.16" y1="127" x2="149.86" y2="127" width="0.1524" layer="91"/>
-<label x="142.24" y="127" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="9"/>
+<wire x1="129.54" y1="124.46" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<label x="116.84" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP9" class="0">
@@ -7117,9 +7117,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="114.3" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="6"/>
-<wire x1="137.16" y1="129.54" x2="149.86" y2="129.54" width="0.1524" layer="91"/>
-<label x="142.24" y="129.54" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="10"/>
+<wire x1="137.16" y1="124.46" x2="149.86" y2="124.46" width="0.1524" layer="91"/>
+<label x="142.24" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP10" class="0">
@@ -7129,9 +7129,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="116.84" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="4"/>
-<wire x1="137.16" y1="132.08" x2="149.86" y2="132.08" width="0.1524" layer="91"/>
-<label x="142.24" y="132.08" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="11"/>
+<wire x1="129.54" y1="121.92" x2="116.84" y2="121.92" width="0.1524" layer="91"/>
+<label x="116.84" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TSOP11" class="0">
@@ -7141,9 +7141,9 @@ Source: AVX .. aphvc.pdf</description>
 <label x="121.92" y="60.96" size="1.778" layer="95" rot="R90"/>
 </segment>
 <segment>
-<pinref part="IRPIN" gate="A" pin="2"/>
-<wire x1="137.16" y1="134.62" x2="149.86" y2="134.62" width="0.1524" layer="91"/>
-<label x="142.24" y="134.62" size="1.778" layer="95"/>
+<pinref part="IRPIN" gate="A" pin="12"/>
+<wire x1="137.16" y1="121.92" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
+<label x="142.24" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="0">
