@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -17595,7 +17595,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 </class>
 </classes>
 <parts>
-<part name="IR-TRAN" library="linear" deviceset="78*" device="TV" technology="05" value="7805"/>
+<part name="IR-TRAN" library="linear" deviceset="78*" device="T" technology="05" value="7805"/>
 <part name="IR-RC2" library="resistor" deviceset="CPOL-EU" device="TT5D9" value="10uf"/>
 <part name="IR-RC1" library="resistor" deviceset="CPOL-EU" device="TT5D9" value="10uf"/>
 <part name="+5V-IR" library="supply1" deviceset="+5V" device="" value="+5V-IR"/>
@@ -17664,7 +17664,7 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <part name="IRC7L" library="rcl" deviceset="C-EU" device="025-024X044"/>
 <part name="IRDP" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="LT-TRAN" library="linear" deviceset="78*" device="TV" technology="05" value="7805"/>
+<part name="LT-TRAN" library="linear" deviceset="78*" device="T" technology="05" value="7805"/>
 <part name="LT-RC1" library="resistor" deviceset="CPOL-EU" device="TT5D9" value="10uf"/>
 <part name="LT-RC2" library="resistor" deviceset="CPOL-EU" device="TT5D9" value="10uf"/>
 <part name="+5V-LT" library="supply1" deviceset="+5V" device="" value="+5V-LT"/>
@@ -18105,19 +18105,13 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <junction x="-66.04" y="127"/>
 </segment>
 <segment>
-<pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="S2P" gate="-5" pin="S"/>
-<wire x1="-83.82" y1="127" x2="-83.82" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="S2P" gate="-3" pin="S"/>
 <wire x1="-81.28" y1="124.46" x2="-81.28" y2="127" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="127" x2="-83.82" y2="127" width="0.1524" layer="91"/>
 <junction x="-83.82" y="127"/>
-<pinref part="LT-MULT-2" gate="P" pin="VCC"/>
-<pinref part="LT-MULT-1" gate="P" pin="VCC"/>
-<wire x1="-88.9" y1="139.7" x2="-88.9" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-88.9" y1="134.62" x2="-83.82" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-83.82" y1="134.62" x2="-83.82" y2="127" width="0.1524" layer="91"/>
-<junction x="-88.9" y="134.62"/>
+<wire x1="-83.82" y1="127" x2="-83.82" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -18914,6 +18908,14 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <pinref part="+5V-LT2" gate="1" pin="+5V"/>
 <pinref part="S2P" gate="-1" pin="S"/>
 <wire x1="-78.74" y1="127" x2="-78.74" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="LT-MULT-2" gate="P" pin="VCC"/>
+<pinref part="LT-MULT-1" gate="P" pin="VCC"/>
+<wire x1="-88.9" y1="139.7" x2="-88.9" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="134.62" x2="-76.2" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-76.2" y1="134.62" x2="-76.2" y2="127" width="0.1524" layer="91"/>
+<junction x="-88.9" y="134.62"/>
+<wire x1="-76.2" y1="127" x2="-78.74" y2="127" width="0.1524" layer="91"/>
+<junction x="-78.74" y="127"/>
 </segment>
 <segment>
 <pinref part="+5V-LT3" gate="1" pin="+5V"/>

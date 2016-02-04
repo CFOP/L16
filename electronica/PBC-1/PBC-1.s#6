@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,16 +53,16 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="12" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -16954,9 +16954,9 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="1.9988" y1="-2.0266" x2="-2.0012" y2="-2.0266" width="0.127" layer="21"/>
 <wire x1="-2.0012" y1="-2.0266" x2="-2.5012" y2="-2.0266" width="0.127" layer="21"/>
 <wire x1="-2.0012" y1="-2.0266" x2="1.9988" y2="-2.0266" width="0.127" layer="21" curve="138.88791"/>
-<pad name="GND" x="2.5412" y="0.0266" drill="0.8128" shape="long" rot="R270"/>
+<pad name="GND" x="-2.5388" y="0.0266" drill="0.8128" shape="long" rot="R270"/>
 <pad name="VCC" x="-0.0412" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
-<pad name="OUT" x="-2.5012" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
+<pad name="OUT" x="2.5788" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
 </package>
 </packages>
 <symbols>
@@ -16980,24 +16980,6 @@ Source: AVX .. aphvc.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="TSOP4840">
-<description>IR Receiver and Demodulator</description>
-<gates>
-<gate name="G$1" symbol="TSOP" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="TSOP18XX">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="OUT" pad="OUT"/>
-<connect gate="G$1" pin="V+" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="TSOP1840">
 <description>IR Receiver and Demodulator</description>
 <gates>
@@ -17526,16 +17508,16 @@ Grid 5.00 mm&lt;p&gt;
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device="" value="+5V-IR"/>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="IRD4R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD5R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD6R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
+<part name="IRD4R" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
+<part name="IRD5R" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
+<part name="IRD6R" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
 <part name="IRD3R" library="tsop" deviceset="TSOP1840" device="" value="TSOP1840"/>
-<part name="IRD2R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD1R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
+<part name="IRD2R" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
+<part name="IRD1R" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="IR-MULT-R" library="74xx-us" deviceset="74*151" device="N" technology="LS"/>
 <part name="+5V-IR1" library="supply1" deviceset="+5V" device="" value="+5V-IR"/>
-<part name="IRD7R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
+<part name="IRD7R" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
 <part name="IRC3R" library="rcl" deviceset="C-EU" device="025-024X044"/>
 <part name="IRR3R" library="rcl" deviceset="R-US_" device="0204/5"/>
 <part name="IRR2R" library="rcl" deviceset="R-US_" device="0204/5"/>
@@ -17550,16 +17532,16 @@ Grid 5.00 mm&lt;p&gt;
 <part name="IRC6R" library="rcl" deviceset="C-EU" device="025-024X044"/>
 <part name="IRR7R" library="rcl" deviceset="R-US_" device="0204/5"/>
 <part name="IRC7R" library="rcl" deviceset="C-EU" device="025-024X044"/>
-<part name="IRD4L" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD5L" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD6L" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD3L" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD2L" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD1L" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
+<part name="IRD4L" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
+<part name="IRD5L" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
+<part name="IRD6L" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
+<part name="IRD3L" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
+<part name="IRD2L" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
+<part name="IRD1L" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="IR-MULT-L" library="74xx-us" deviceset="74*151" device="N" technology="LS"/>
 <part name="+5V-IR2" library="supply1" deviceset="+5V" device="" value="+5V-IR"/>
-<part name="IRD7L" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
+<part name="IRD7L" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
 <part name="IRC3L" library="rcl" deviceset="C-EU" device="025-024X044"/>
 <part name="IRR3L" library="rcl" deviceset="R-US_" device="0204/5"/>
 <part name="IRR2L" library="rcl" deviceset="R-US_" device="0204/5"/>
@@ -17574,7 +17556,7 @@ Grid 5.00 mm&lt;p&gt;
 <part name="IRC6L" library="rcl" deviceset="C-EU" device="025-024X044"/>
 <part name="IRR7L" library="rcl" deviceset="R-US_" device="0204/5"/>
 <part name="IRC7L" library="rcl" deviceset="C-EU" device="025-024X044"/>
-<part name="IRDP" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
+<part name="IRDP" library="tsop" deviceset="TSOP1840" device="" value="TSOP2240"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="LT-TRAN" library="linear" deviceset="78*" device="TV" technology="05" value="7805"/>
 <part name="LT-RC1" library="resistor" deviceset="CPOL-EU" device="TT5D9" value="10uf"/>
@@ -17621,7 +17603,6 @@ Grid 5.00 mm&lt;p&gt;
 <part name="P+9" library="supply1" deviceset="+12V" device=""/>
 <part name="IRC4R1" library="rcl" deviceset="C-EU" device="025-024X044"/>
 <part name="IRR4R1" library="rcl" deviceset="R-US_" device="0204/5"/>
-<part name="U$1" library="tsop" deviceset="TSOP1840" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17635,7 +17616,7 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="P+2" gate="VCC" x="-27.94" y="40.64" rot="R180"/>
 <instance part="IR-AT" gate="A" x="33.02" y="33.02"/>
 <instance part="IR-R1" gate="G$1" x="66.04" y="10.16" rot="R180"/>
-<instance part="P+4" gate="1" x="76.2" y="10.16" rot="MR270"/>
+<instance part="P+4" gate="1" x="76.2" y="10.16" rot="MR90"/>
 <instance part="IR-BTN" gate="G$1" x="73.66" y="2.54"/>
 <instance part="GND2" gate="1" x="-5.08" y="55.88" rot="R90"/>
 <instance part="CR-AT1" gate="G$1" x="5.08" y="17.78" rot="R180"/>
@@ -17714,7 +17695,7 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="LT-R2" gate="G$1" x="-7.62" y="104.14"/>
 <instance part="GND9" gate="1" x="-27.94" y="104.14" rot="R270"/>
 <instance part="GND10" gate="1" x="86.36" y="81.28" rot="R90"/>
-<instance part="P+6" gate="1" x="5.08" y="129.54" rot="R90"/>
+<instance part="P+6" gate="1" x="2.54" y="129.54" rot="R90"/>
 <instance part="GND11" gate="1" x="15.24" y="83.82" rot="R90"/>
 <instance part="LT-MULT-1" gate="A" x="-147.32" y="121.92"/>
 <instance part="S1P" gate="-1" x="-68.58" y="129.54" rot="R270"/>
@@ -17767,7 +17748,6 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="P+9" gate="1" x="35.56" y="-38.1" rot="R180"/>
 <instance part="IRC4R1" gate="G$1" x="-154.94" y="43.18"/>
 <instance part="IRR4R1" gate="G$1" x="-162.56" y="45.72" rot="R270"/>
-<instance part="U$1" gate="G$1" x="-33.02" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -18128,11 +18108,15 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="7.62" y1="48.26" x2="12.7" y2="48.26" width="0.1524" layer="91"/>
 <junction x="12.7" y="48.26"/>
 <pinref part="P+3" gate="1" pin="+5V"/>
+<pinref part="IR-AT" gate="A" pin="AREF"/>
+<wire x1="15.24" y1="40.64" x2="12.7" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="40.64" x2="12.7" y2="45.72" width="0.1524" layer="91"/>
+<junction x="12.7" y="45.72"/>
 </segment>
 <segment>
 <pinref part="IR-R1" gate="G$1" pin="1"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="78.74" y1="10.16" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="73.66" y1="10.16" x2="71.12" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IRD6R" gate="G$1" pin="V+"/>
@@ -18694,9 +18678,13 @@ Grid 5.00 mm&lt;p&gt;
 <pinref part="LT-AT" gate="A" pin="AVCC"/>
 <wire x1="15.24" y1="127" x2="12.7" y2="127" width="0.1524" layer="91"/>
 <wire x1="12.7" y1="127" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="7.62" y1="129.54" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="129.54" x2="12.7" y2="129.54" width="0.1524" layer="91"/>
 <junction x="12.7" y="129.54"/>
 <pinref part="P+6" gate="1" pin="+5V"/>
+<pinref part="LT-AT" gate="A" pin="AREF"/>
+<wire x1="15.24" y1="121.92" x2="12.7" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="121.92" x2="12.7" y2="127" width="0.1524" layer="91"/>
+<junction x="12.7" y="127"/>
 </segment>
 <segment>
 <pinref part="LT-R1" gate="G$1" pin="1"/>
@@ -18771,17 +18759,17 @@ Grid 5.00 mm&lt;p&gt;
 <wire x1="-134.62" y1="132.08" x2="-124.46" y2="132.08" width="0.1524" layer="91"/>
 <label x="-134.62" y="132.08" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="LT-MULT-2" gate="A" pin="Y"/>
-<wire x1="-213.36" y1="132.08" x2="-223.52" y2="132.08" width="0.1524" layer="91"/>
-<label x="-213.36" y="132.08" size="1.778" layer="95" rot="MR0"/>
-</segment>
 </net>
 <net name="LTLOUT" class="0">
 <segment>
 <pinref part="LT-AT" gate="A" pin="PC1"/>
 <wire x1="50.8" y1="104.14" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 <label x="50.8" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LT-MULT-2" gate="A" pin="Y"/>
+<wire x1="-213.36" y1="132.08" x2="-223.52" y2="132.08" width="0.1524" layer="91"/>
+<label x="-213.36" y="132.08" size="1.778" layer="95" rot="MR0"/>
 </segment>
 </net>
 <net name="LTAR" class="0">
@@ -18982,6 +18970,27 @@ Grid 5.00 mm&lt;p&gt;
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="201,1,-104.14,134.62,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-50.8,134.62,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-86.36,134.62,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-68.58,134.62,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,5.08,129.54,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,73.66,91.44,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-27.94,149.86,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-231.14,81.28,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-93.98,81.28,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,7.62,48.26,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,73.66,10.16,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-27.94,68.58,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="104,1,15.24,48.26,IR-AT,VCC,+5V-IR,,,"/>
+<approved hash="202,1,-81.28,-20.32,IR-MULT-R,D0,,,,"/>
+<approved hash="202,1,-243.84,-20.32,IR-MULT-L,D0,,,,"/>
+<approved hash="202,1,-160.02,137.16,LT-MULT-1,D0,,,,"/>
+<approved hash="202,1,-160.02,119.38,LT-MULT-1,D7,,,,"/>
+<approved hash="202,1,-187.96,137.16,LT-MULT-2,D0,,,,"/>
+<approved hash="202,1,-187.96,119.38,LT-MULT-2,D7,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>

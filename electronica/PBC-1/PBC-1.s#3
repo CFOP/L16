@@ -19222,9 +19222,9 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <label x="58.42" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TXT" gate="-1" pin="S"/>
-<wire x1="-259.08" y1="101.6" x2="-266.7" y2="101.6" width="0.1524" layer="91"/>
-<label x="-266.7" y="101.6" size="1.778" layer="95"/>
+<pinref part="TXT" gate="-2" pin="S"/>
+<wire x1="-238.76" y1="101.6" x2="-246.38" y2="101.6" width="0.1524" layer="91"/>
+<label x="-246.38" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX-CS" class="0">
@@ -19234,57 +19234,42 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <label x="58.42" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="TXT" gate="-2" pin="S"/>
-<wire x1="-238.76" y1="101.6" x2="-246.38" y2="101.6" width="0.1524" layer="91"/>
-<label x="-246.38" y="101.6" size="1.778" layer="95"/>
+<pinref part="TXT" gate="-1" pin="S"/>
+<wire x1="-259.08" y1="101.6" x2="-266.7" y2="101.6" width="0.1524" layer="91"/>
+<label x="-266.7" y="101.6" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,-25.4,15.24,+5V,+5V-IR,,,,"/>
 <approved hash="102,1,76.2,-43.18,+5V,+5V-IR,,,,"/>
 <approved hash="102,1,10.16,-5.08,+5V,+5V-IR,,,,"/>
 <approved hash="102,1,-93.98,81.28,+5V,+5V-IR,,,,"/>
 <approved hash="102,1,-231.14,81.28,+5V,+5V-IR,,,,"/>
-<approved hash="102,1,-25.4,96.52,+5V,+5V-LT,,,,"/>
-<approved hash="102,1,76.2,38.1,+5V,+5V-LT,,,,"/>
-<approved hash="102,1,7.62,76.2,+5V,+5V-LT,,,,"/>
-<approved hash="102,1,-68.58,134.62,+5V,+5V-LT,,,,"/>
-<approved hash="102,1,-86.36,134.62,+5V,+5V-LT,,,,"/>
-<approved hash="102,1,-50.8,134.62,+5V,+5V-LT,,,,"/>
-<approved hash="102,1,-104.14,134.62,+5V,+5V-LT,,,,"/>
-<approved hash="102,1,-220.98,111.76,+5V,+5V-LT,,,,"/>
-<approved hash="102,1,73.66,121.92,+5V,+5V-IR,,,,"/>
-<approved hash="102,1,7.62,160.02,+5V,+5V-IR,,,,"/>
-<approved hash="201,1,7.62,160.02,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,73.66,121.92,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,-220.98,111.76,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,-104.14,134.62,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,-50.8,134.62,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,-86.36,134.62,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,-68.58,134.62,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,7.62,76.2,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,76.2,38.1,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,-25.4,96.52,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,12.7,63.5,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,78.74,25.4,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-231.14,121.92,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-96.52,127,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-43.18,127,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-78.74,127,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-60.96,127,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,10.16,129.54,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,78.74,91.44,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-22.86,83.82,+5V,+5V-IR\, +5V-LT,,,,"/>
 <approved hash="201,1,-231.14,81.28,+5V,+5V-IR\, +5V-LT,,,,"/>
 <approved hash="201,1,-93.98,81.28,+5V,+5V-IR\, +5V-LT,,,,"/>
 <approved hash="201,1,10.16,-5.08,+5V,+5V-IR\, +5V-LT,,,,"/>
 <approved hash="201,1,76.2,-43.18,+5V,+5V-IR\, +5V-LT,,,,"/>
-<approved hash="201,1,-25.4,15.24,+5V,+5V-IR\, +5V-LT,,,,"/>
+<approved hash="201,1,-22.86,7.62,+5V,+5V-IR\, +5V-LT,,,,"/>
 <approved hash="104,1,17.78,-5.08,IR-AT,VCC,+5V-IR,,,"/>
 <approved hash="104,1,17.78,-7.62,IR-AT,AVCC,+5V-IR,,,"/>
 <approved hash="202,1,-81.28,-20.32,IR-MULT-R,D0,,,,"/>
 <approved hash="202,1,-243.84,-20.32,IR-MULT-L,D0,,,,"/>
-<approved hash="104,1,17.78,76.2,LT-AT,VCC,+5V-LT,,,"/>
-<approved hash="104,1,17.78,73.66,LT-AT,AVCC,+5V-LT,,,"/>
-<approved hash="202,1,-160.02,137.16,LT-MULT-1,D0,,,,"/>
-<approved hash="202,1,-160.02,119.38,LT-MULT-1,D7,,,,"/>
-<approved hash="202,1,-187.96,137.16,LT-MULT-2,D0,,,,"/>
-<approved hash="202,1,-187.96,119.38,LT-MULT-2,D7,,,,"/>
-<approved hash="104,1,15.24,160.02,CS-AT,VCC,+5V-IR,,,"/>
-<approved hash="104,1,15.24,157.48,CS-AT,AVCC,+5V-IR,,,"/>
+<approved hash="202,1,-147.32,127,LT-MULT-1,D0,,,,"/>
+<approved hash="202,1,-147.32,109.22,LT-MULT-1,D7,,,,"/>
+<approved hash="202,1,-175.26,127,LT-MULT-2,D0,,,,"/>
+<approved hash="202,1,-175.26,109.22,LT-MULT-2,D7,,,,"/>
 <approved hash="113,1,-16.51,-30.8017,IR-LED,,,,,"/>
 <approved hash="113,1,-79.9574,62.23,IRC3R,,,,,"/>
 <approved hash="113,1,-76.2,67.0348,IRR3R,,,,,"/>
@@ -19314,12 +19299,8 @@ Source: http://www.molex.com/pdm_docs/sd/877580616_sd.pdf</description>
 <approved hash="113,1,-217.327,16.51,IRC6L,,,,,"/>
 <approved hash="113,1,-210.82,3.53483,IRR7L,,,,,"/>
 <approved hash="113,1,-214.787,6.35,IRC7L,,,,,"/>
-<approved hash="113,1,-16.51,50.4783,LT-LED,,,,,"/>
-<approved hash="113,1,-258.216,129.54,VEL,,,,,"/>
 <approved hash="113,1,-150.368,41.91,IRC4R1,,,,,"/>
 <approved hash="113,1,-161.565,45.72,IRR4R1,,,,,"/>
-<approved hash="113,1,-231.182,114.495,COMPASS,,,,,"/>
-<approved hash="113,1,-19.05,134.298,CS-LED,,,,,"/>
 </errors>
 </schematic>
 </drawing>

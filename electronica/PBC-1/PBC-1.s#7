@@ -25,7 +25,7 @@
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="14" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
@@ -36,8 +36,8 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="29" name="tStop" color="2" fill="3" visible="no" active="no"/>
-<layer number="30" name="bStop" color="5" fill="6" visible="no" active="no"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="13" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
 <layer number="50" name="dxf" color="12" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
@@ -16954,8 +16954,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="1.9988" y1="-2.0266" x2="-2.0012" y2="-2.0266" width="0.127" layer="21"/>
 <wire x1="-2.0012" y1="-2.0266" x2="-2.5012" y2="-2.0266" width="0.127" layer="21"/>
 <wire x1="-2.0012" y1="-2.0266" x2="1.9988" y2="-2.0266" width="0.127" layer="21" curve="138.88791"/>
-<pad name="GND" x="-0.0012" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
-<pad name="VCC" x="2.4988" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
+<pad name="GND" x="2.5412" y="0.0266" drill="0.8128" shape="long" rot="R270"/>
+<pad name="VCC" x="-0.0412" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
 <pad name="OUT" x="-2.5012" y="-0.0266" drill="0.8128" shape="long" rot="R90"/>
 </package>
 </packages>
@@ -16981,6 +16981,24 @@ Source: AVX .. aphvc.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="TSOP4840">
+<description>IR Receiver and Demodulator</description>
+<gates>
+<gate name="G$1" symbol="TSOP" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TSOP18XX">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="OUT" pad="OUT"/>
+<connect gate="G$1" pin="V+" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSOP1840">
 <description>IR Receiver and Demodulator</description>
 <gates>
 <gate name="G$1" symbol="TSOP" x="2.54" y="0"/>
@@ -17511,7 +17529,7 @@ Grid 5.00 mm&lt;p&gt;
 <part name="IRD4R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
 <part name="IRD5R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
 <part name="IRD6R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
-<part name="IRD3R" library="tsop" deviceset="TSOP4840" device="" value="TSOP4840"/>
+<part name="IRD3R" library="tsop" deviceset="TSOP1840" device="" value="TSOP1840"/>
 <part name="IRD2R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
 <part name="IRD1R" library="tsop" deviceset="TSOP4840" device="" value="TSOP2240"/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -17603,6 +17621,7 @@ Grid 5.00 mm&lt;p&gt;
 <part name="P+9" library="supply1" deviceset="+12V" device=""/>
 <part name="IRC4R1" library="rcl" deviceset="C-EU" device="025-024X044"/>
 <part name="IRR4R1" library="rcl" deviceset="R-US_" device="0204/5"/>
+<part name="U$1" library="tsop" deviceset="TSOP1840" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -17748,6 +17767,7 @@ Grid 5.00 mm&lt;p&gt;
 <instance part="P+9" gate="1" x="35.56" y="-38.1" rot="R180"/>
 <instance part="IRC4R1" gate="G$1" x="-154.94" y="43.18"/>
 <instance part="IRR4R1" gate="G$1" x="-162.56" y="45.72" rot="R270"/>
+<instance part="U$1" gate="G$1" x="-33.02" y="7.62"/>
 </instances>
 <busses>
 </busses>
