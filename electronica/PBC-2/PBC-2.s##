@@ -122,15 +122,15 @@
 <packages>
 <package name="ARDUINO_MEGA2560">
 <description>Footprint for representing an Arduino Mega board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle</description>
-<wire x1="101.6" y1="53.34" x2="5.08" y2="53.34" width="0.2032" layer="20"/>
+<wire x1="101.6" y1="53.34" x2="5.08" y2="53.34" width="0.2032" layer="22"/>
 <wire x1="5.08" y1="53.34" x2="2.54" y2="50.8" width="0.2032" layer="20"/>
-<wire x1="2.54" y1="40.64" x2="0" y2="38.1" width="0.2032" layer="20"/>
-<wire x1="0" y1="38.1" x2="0" y2="3.81" width="0.2032" layer="20"/>
-<wire x1="0" y1="3.81" x2="2.54" y2="1.27" width="0.2032" layer="20"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.2032" layer="20"/>
-<wire x1="2.54" y1="0" x2="101.6" y2="0" width="0.2032" layer="20"/>
-<wire x1="101.6" y1="0" x2="101.6" y2="53.34" width="0.2032" layer="20"/>
-<wire x1="2.54" y1="50.8" x2="2.54" y2="40.64" width="0.2032" layer="20"/>
+<wire x1="2.54" y1="40.64" x2="0" y2="38.1" width="0.2032" layer="22"/>
+<wire x1="0" y1="38.1" x2="0" y2="3.81" width="0.2032" layer="22"/>
+<wire x1="0" y1="3.81" x2="2.54" y2="1.27" width="0.2032" layer="22"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.2032" layer="22"/>
+<wire x1="2.54" y1="0" x2="101.6" y2="0" width="0.2032" layer="22"/>
+<wire x1="101.6" y1="0" x2="101.6" y2="53.34" width="0.2032" layer="22"/>
+<wire x1="2.54" y1="50.8" x2="2.54" y2="40.64" width="0.2032" layer="22"/>
 <wire x1="13.335" y1="3.81" x2="12.065" y2="3.81" width="0.2032" layer="22"/>
 <wire x1="12.065" y1="3.81" x2="11.43" y2="3.175" width="0.2032" layer="22"/>
 <wire x1="11.43" y1="1.905" x2="12.065" y2="1.27" width="0.2032" layer="22"/>
@@ -792,12 +792,6 @@
 <rectangle x1="37.846" y1="2.286" x2="38.354" y2="2.794" layer="51"/>
 <rectangle x1="35.306" y1="2.286" x2="35.814" y2="2.794" layer="51"/>
 <rectangle x1="32.766" y1="2.286" x2="33.274" y2="2.794" layer="51"/>
-<hole x="86.36" y="50.8" drill="3.2"/>
-<hole x="87.63" y="2.54" drill="3.2"/>
-<hole x="35.56" y="35.56" drill="3.2"/>
-<hole x="35.56" y="7.62" drill="3.2"/>
-<hole x="11.43" y="50.8" drill="3.2"/>
-<hole x="5.08" y="2.54" drill="3.2"/>
 <wire x1="97.79" y1="32.385" x2="92.075" y2="32.385" width="0.127" layer="22"/>
 <wire x1="92.075" y1="32.385" x2="92.075" y2="43.815" width="0.127" layer="22"/>
 <wire x1="92.075" y1="43.815" x2="97.79" y2="43.815" width="0.127" layer="22"/>
@@ -885,22 +879,18 @@
 </package>
 <package name="ARDUINO_UNO">
 <description>Footprint for representing an Arduino Uno board in an EAGLE schematic. Created by Dave Young for Element14. More EAGLE documentation at: http://www.element14.com/community/community/knode/cadsoft_eagle</description>
-<wire x1="66.04" y1="2.54" x2="66.04" y2="1.016" width="0.127" layer="20"/>
-<wire x1="66.04" y1="1.016" x2="65.024" y2="0" width="0.127" layer="20" curve="-90"/>
-<wire x1="65.024" y1="0" x2="1.016" y2="0" width="0.127" layer="20"/>
-<wire x1="1.016" y1="0" x2="0" y2="1.016" width="0.127" layer="20" curve="-90"/>
-<wire x1="0" y1="1.016" x2="0" y2="52.2986" width="0.127" layer="20"/>
-<wire x1="0" y1="52.2986" x2="1.016" y2="53.3146" width="0.127" layer="20" curve="-90"/>
-<wire x1="1.016" y1="53.3146" x2="64.77" y2="53.3146" width="0.127" layer="20"/>
-<wire x1="64.77" y1="53.3146" x2="66.04" y2="52.0446" width="0.127" layer="20"/>
-<wire x1="66.04" y1="52.0446" x2="66.04" y2="40.6146" width="0.127" layer="20"/>
-<wire x1="66.04" y1="40.6146" x2="68.58" y2="38.0746" width="0.127" layer="20"/>
-<wire x1="68.58" y1="38.0746" x2="68.58" y2="5.08" width="0.127" layer="20"/>
-<wire x1="68.58" y1="5.08" x2="66.04" y2="2.54" width="0.127" layer="20"/>
-<hole x="66.04" y="7.62" drill="3.2"/>
-<hole x="66.04" y="35.56" drill="3.2"/>
-<hole x="15.24" y="50.8" drill="3.2"/>
-<hole x="13.97" y="2.54" drill="3.2"/>
+<wire x1="66.04" y1="2.54" x2="66.04" y2="1.016" width="0.127" layer="21"/>
+<wire x1="66.04" y1="1.016" x2="65.024" y2="0" width="0.127" layer="21" curve="-90"/>
+<wire x1="65.024" y1="0" x2="1.016" y2="0" width="0.127" layer="21"/>
+<wire x1="1.016" y1="0" x2="0" y2="1.016" width="0.127" layer="21" curve="-90"/>
+<wire x1="0" y1="1.016" x2="0" y2="52.2986" width="0.127" layer="21"/>
+<wire x1="0" y1="52.2986" x2="1.016" y2="53.3146" width="0.127" layer="21" curve="-90"/>
+<wire x1="1.016" y1="53.3146" x2="64.77" y2="53.3146" width="0.127" layer="21"/>
+<wire x1="64.77" y1="53.3146" x2="66.04" y2="52.0446" width="0.127" layer="21"/>
+<wire x1="66.04" y1="52.0446" x2="66.04" y2="40.6146" width="0.127" layer="21"/>
+<wire x1="66.04" y1="40.6146" x2="68.58" y2="38.0746" width="0.127" layer="21"/>
+<wire x1="68.58" y1="38.0746" x2="68.58" y2="5.08" width="0.127" layer="21"/>
+<wire x1="68.58" y1="5.08" x2="66.04" y2="2.54" width="0.127" layer="21"/>
 <wire x1="60.325" y1="52.07" x2="61.595" y2="52.07" width="0.2032" layer="21"/>
 <wire x1="61.595" y1="52.07" x2="62.23" y2="51.435" width="0.2032" layer="21"/>
 <wire x1="62.23" y1="50.165" x2="61.595" y2="49.53" width="0.2032" layer="21"/>
