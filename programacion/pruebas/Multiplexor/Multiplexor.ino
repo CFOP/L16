@@ -1,6 +1,6 @@
-#define A 5 
-#define B 6
-#define C 7
+#define A 12
+#define B 11
+#define C 10
 int d, a, b, c;
 void setup() {
   Serial.begin(9600);
