@@ -12,7 +12,7 @@ class HMC5583L{
 		and sets the initial rotation angle based on magnetic north.
 		method args: I^2C address
 		*/
-		HMC5583L(int address);
+		HMC5583L(int);
 		/*
 		*/
 		void initialize();
@@ -21,7 +21,7 @@ class HMC5583L{
 		and sets the initial rotation angle based on magnetic north.
 		method args: I^2C address
 		*/
-		void setAddress(int newAddress);
+		void setAddress(int);
 		int getAddress();
 		/*
 		reset angle method: resets the initial rotation angle
