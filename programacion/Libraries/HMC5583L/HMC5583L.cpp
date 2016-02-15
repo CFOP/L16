@@ -29,8 +29,8 @@ float HMC5583L::getRotationAngle(){
 	}
 	//recorrer 8 bits (de 1 byte) y agregar los ultimos 8 bits (del segundo byte) para obtener el valor de cada eje
 	int x=(values[0]<<8)+values[1];
-	int y=(values[2]<<8)+values[3];
-	int z=(values[4]<<8)+values[5];
+	int y=(values[4]<<8)+values[5];
+	int z=(values[2]<<8)+values[3];
 	
 	//obtener angulo en radianes mediante tangente de 2 lados de longitudes(x,y)
 	float angle=(float)atan2(x,y);
