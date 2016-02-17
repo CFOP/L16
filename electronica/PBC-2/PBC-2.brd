@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.003125" unitdist="mic" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -36,14 +36,14 @@
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
@@ -3038,9 +3038,9 @@ design rules under a new name.</description>
 <wire x1="-75.8016" y1="12.6336" x2="-75.8" y2="12.34" width="1" layer="16"/>
 <wire x1="4.8128" y1="80.6144" x2="3.9834875" y2="81.4437125" width="1.016" layer="16"/>
 <wire x1="3.9834875" y1="81.4437125" x2="3.9834875" y2="86.06156875" width="1.016" layer="16"/>
-<wire x1="29.4784" y1="87.232" x2="27.593128125" y2="89.117271875" width="1.016" layer="16"/>
-<wire x1="27.593128125" y1="89.117271875" x2="7.039190625" y2="89.117271875" width="1.016" layer="16"/>
-<wire x1="7.039190625" y1="89.117271875" x2="3.9834875" y2="86.06156875" width="1.016" layer="16"/>
+<wire x1="29.4784" y1="87.232" x2="28.65995" y2="88.05045" width="1.016" layer="16"/>
+<wire x1="28.65995" y1="88.05045" x2="5.97236875" y2="88.05045" width="1.016" layer="16"/>
+<wire x1="5.97236875" y1="88.05045" x2="3.9834875" y2="86.06156875" width="1.016" layer="16"/>
 </signal>
 <signal name="M1ENL">
 <contactref element="PUENTE2" pad="6"/>
@@ -3441,10 +3441,10 @@ design rules under a new name.</description>
 <contactref element="UNO" pad="11"/>
 <wire x1="-36.173421875" y1="56.571940625" x2="-38.458503125" y2="58.857021875" width="1.016" layer="1"/>
 <wire x1="-38.458503125" y1="58.857021875" x2="-38.458503125" y2="78.226715625" width="1.016" layer="1"/>
-<wire x1="-38.458503125" y1="78.226715625" x2="-27.631634375" y2="89.053584375" width="1.016" layer="1"/>
 <wire x1="-5.657653125" y1="84.138325" x2="-5.657653125" y2="86.402403125" width="1.016" layer="1"/>
-<wire x1="-5.657653125" y1="86.402403125" x2="-8.308834375" y2="89.053584375" width="1.016" layer="1"/>
-<wire x1="-8.308834375" y1="89.053584375" x2="-27.631634375" y2="89.053584375" width="1.016" layer="1"/>
+<wire x1="-5.657653125" y1="86.402403125" x2="-7.940528125" y2="88.685278125" width="1.016" layer="1"/>
+<wire x1="-7.940528125" y1="88.685278125" x2="-27.999940625" y2="88.685278125" width="1.016" layer="1"/>
+<wire x1="-27.999940625" y1="88.685278125" x2="-38.458503125" y2="78.226715625" width="1.016" layer="1"/>
 </signal>
 <signal name="MISO">
 <contactref element="SV1" pad="6"/>
@@ -3506,9 +3506,8 @@ design rules under a new name.</description>
 <contactref element="MEGA" pad="0"/>
 <wire x1="-8.4224" y1="67.9808" x2="27.6736" y2="67.9808" width="1" layer="16"/>
 <wire x1="-10.8288" y1="65.5744" x2="-8.4224" y2="67.9808" width="1" layer="16"/>
-<wire x1="-69.184" y1="65.5744" x2="-10.8288" y2="65.5744" width="1" layer="16"/>
-<wire x1="-92.0448" y1="42.7136" x2="-69.184" y2="65.5744" width="1" layer="16"/>
-<wire x1="-92.0448" y1="19.2512" x2="-92.0448" y2="42.7136" width="1" layer="16"/>
+<wire x1="-69.184" y1="65.5744" x2="-68.469071875" y2="65.5744" width="1" layer="16"/>
+<wire x1="-68.469071875" y1="65.5744" x2="-10.8288" y2="65.5744" width="1" layer="16"/>
 <wire x1="-96.8576" y1="14.4384" x2="-92.0448" y2="19.2512" width="1" layer="16"/>
 <wire x1="-96.8576" y1="-25.8688" x2="-96.8576" y2="14.4384" width="1" layer="16"/>
 <wire x1="-36.096" y1="-86.6304" x2="-96.8576" y2="-25.8688" width="1" layer="16"/>
@@ -3520,10 +3519,13 @@ design rules under a new name.</description>
 <wire x1="-34.60450625" y1="-88.12189375" x2="11.06080625" y2="-88.12189375" width="1.016" layer="16"/>
 <wire x1="11.06080625" y1="-88.12189375" x2="12.43" y2="-86.7527" width="1.016" layer="16"/>
 <wire x1="12.43" y1="-86.7527" x2="12.43" y2="-85.8" width="1.016" layer="16"/>
+<wire x1="-92.0448" y1="19.2512" x2="-79.3977875" y2="31.8982125" width="1.016" layer="16"/>
+<wire x1="-79.3977875" y1="31.8982125" x2="-79.3977875" y2="55.35928125" width="1.016" layer="16"/>
+<wire x1="-79.3977875" y1="55.35928125" x2="-69.18266875" y2="65.5744" width="1.016" layer="16"/>
+<wire x1="-69.18266875" y1="65.5744" x2="-68.469071875" y2="65.5744" width="1.016" layer="16"/>
 </signal>
 <signal name="RX-XBEE">
 <contactref element="MEGA" pad="1"/>
-<wire x1="-93.248" y1="19.8528" x2="-93.248" y2="43.3152" width="1" layer="16"/>
 <wire x1="-98.0608" y1="15.04" x2="-93.248" y2="19.8528" width="1" layer="16"/>
 <wire x1="-98.0608" y1="-26.4704" x2="-98.0608" y2="15.04" width="1" layer="16"/>
 <wire x1="-37.2992" y1="-87.232" x2="-98.0608" y2="-26.4704" width="1" layer="16"/>
@@ -3541,8 +3543,10 @@ design rules under a new name.</description>
 <wire x1="33.5152" y1="61.805225" x2="35.23620625" y2="63.52623125" width="1.016" layer="16"/>
 <wire x1="35.23620625" y1="63.52623125" x2="35.23620625" y2="70.17206875" width="1.016" layer="16"/>
 <wire x1="35.23620625" y1="70.17206875" x2="30.5110375" y2="74.8972375" width="1.016" layer="16"/>
-<wire x1="-93.248" y1="43.3152" x2="-61.6659625" y2="74.8972375" width="1.016" layer="16"/>
-<wire x1="-61.6659625" y1="74.8972375" x2="30.5110375" y2="74.8972375" width="1.016" layer="16"/>
+<wire x1="-61.90074375" y1="74.8972375" x2="30.5110375" y2="74.8972375" width="1.016" layer="16"/>
+<wire x1="-93.248" y1="19.8528" x2="-81.504528125" y2="31.596271875" width="1.016" layer="16"/>
+<wire x1="-81.504528125" y1="31.596271875" x2="-81.504528125" y2="55.293453125" width="1.016" layer="16"/>
+<wire x1="-81.504528125" y1="55.293453125" x2="-61.90074375" y2="74.8972375" width="1.016" layer="16"/>
 </signal>
 <signal name="S$1">
 <contactref element="MEGA" pad="12"/>

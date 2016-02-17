@@ -137,7 +137,7 @@
 <wire x1="-50" y1="60" x2="-50" y2="40" width="0.4064" layer="20"/>
 <wire x1="-50" y1="40" x2="-70" y2="40" width="0.4064" layer="20"/>
 <circle x="-12.76" y="60.17" radius="1.6" width="0.4064" layer="20"/>
-<text x="-61.729075" y="29.718403125" size="5.08" layer="26" distance="43" rot="MR0">InteliRobot</text>
+<text x="-46.984375" y="30.823303125" size="5.08" layer="26" distance="43" rot="MR0">InteliRobot</text>
 <rectangle x1="66.8274" y1="-52.705" x2="82.677" y2="-52.6542" layer="200"/>
 <rectangle x1="66.6242" y1="-52.6542" x2="82.931" y2="-52.6034" layer="200"/>
 <rectangle x1="66.5226" y1="-52.6034" x2="82.9818" y2="-52.5526" layer="200"/>
