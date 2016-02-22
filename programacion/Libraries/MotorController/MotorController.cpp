@@ -1,7 +1,8 @@
 #include "Arduino.h";
 #include "MotorController.h";
-MotorController::MotorController(int interrupt,int m1d1,int m1d2,int power1,int m2d1,int m2d2,int power2,bool invert1,bool invert2){
-	interruptor=interrupt;
+MotorController::MotorController(int inter1,int inter2,int m1d1,int m1d2,int power1,int m2d1,int m2d2,int power2,bool invert1,bool invert2){
+	dF1=inter1;
+	dF2=inter2;
 
 	portM1D1=m1d1;
 	portM1D2=m1d2;
@@ -41,18 +42,28 @@ void MotorController::invert(short motor){
 		}	
 	}
 }
-void MotorController::turnOn(){
-	digitalWrite(interruptor,LOW);
+void MotorController::turnOn(short port){
+	if(motor==MOTOR1){
+		digitalWrite(dF1,LOW);
+	}
+	else{
+		digitalWrite(dF2,LOW);
+	}
 }
-void MotorController::turnOff(){
-	digitalWrite(interruptor,HIGH);
+void MotorController::turnOff(short port){
+	if(motor==MOTOR1){
+		digitalWrite(dF1,HIGH);
+	}
+	else{
+		digitalWrite(dF2,HIGH);
+	}
 }
 void MotorController::setSpeed(short motor,int speed){
 	if(motor==MOTOR1){
-		speed1=speed;
+		speed1=abs(speed)%255;
 	}
 	else{
-		speed2=speed;
+		speed2=abs(speed)%255;
 	}
 }
 void MotorController::forward(short motor){
