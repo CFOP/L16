@@ -4,8 +4,7 @@
 #define MOTOR2 1
 class HMC5583L{
 	private:
-		int dF1;
-		int dF2;
+		int actvPort;
 
 		int portPower1;
 		int portM1D1;
@@ -21,7 +20,7 @@ class HMC5583L{
 		int speed1;
 		int speed2;
 	public:
-		MotorController(int,int,int,int,int,int,int,int,bool,bool);
+		MotorController(int,int,int,int,int,int,int,bool,bool);
 		void invert(short);
 		void turnOn(short);
 		void turnOff(short);
