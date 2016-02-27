@@ -15,7 +15,7 @@ MotorController::MotorController(int actv,int m1d1,int m1d2,int power1,int m2d1,
 	inverted1=invert1;
 	inverted2=invert2;
 
-	pinMode(interruptor,OUTPUT);
+	pinMode(actvPort,OUTPUT);
 	pinMode(portM1D1,OUTPUT);
 	pinMode(portM1D2,OUTPUT);
 	pinMode(portM2D1,OUTPUT);

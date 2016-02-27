@@ -2,7 +2,7 @@
 #define MotorControler_h
 #define MOTOR1 0
 #define MOTOR2 1
-class HMC5583L{
+class MotorController{
 	private:
 		int actvPort;
 
@@ -24,10 +24,9 @@ class HMC5583L{
 		void invert(short);
 		void turnOn(short);
 		void turnOff(short);
-		void setSpeed1(short,int);
-		void setSpeed2(int,int);
+		void setSpeed(short,int);
 		void forward(short);
 		void backward(short);
-		void (short);
+		void stop(short);
 };
 #endif
