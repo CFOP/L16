@@ -9,6 +9,7 @@ class Photoresistor{
 		int max;
 		int min;
 	public:
+		Photoresistor(int,int,int,int);
 		void calibrate();
 		int getReading();
 };
