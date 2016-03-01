@@ -7,7 +7,7 @@ class DirectionController{
 		MotorController* controller1;
 		MotorController* controller2;
 	public:
-		DirectionController();
+		DirectionController(int,int,int,int,int,int,int,bool,bool,int,int,int,int,int,int,int,bool,bool);
 		void forward();
 		void diagonal();
 		void right();
