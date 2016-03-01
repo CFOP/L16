@@ -6,7 +6,7 @@ InfraredDetection::InfraredDetection(int ilength,int[] iports){
 }
 bool InfraredDtection::getBall(){
 	int	r;
-	for(int i=0;i<length;i++){
+	for(int i=0;i<length-3;i++){
 		r=analogRead(ports[i]);
 		if(r<1020){
 			return true;
@@ -14,4 +14,3 @@ bool InfraredDtection::getBall(){
 	}
 	return false;
 }
-if
