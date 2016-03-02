@@ -6,11 +6,12 @@ class SerialDevice{
 	private:
 		int txPort;
 		int rxPort;
+		int serialRate;
 		SoftwareSerial* serialDev;
 	public:
 		SerialDevice(int,int,int);
-		void writeString(String);
-		void writeByteArray(byte[]);
-		bool getAvailable();
+		void init();
+		void write(byte*,int,int);
+		bool requested();
 };
 #endif

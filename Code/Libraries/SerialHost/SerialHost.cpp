@@ -8,8 +8,20 @@ SerialHost::SerialHost(int tx,int rx,int rate){
 	serialHost[0].begin(rate);
 }
 byte[] SerialHost::read(){
-
+	if(serialHost[0].available){
+		serialHost[0].read();
+		int length=(int)serialHost[0].read();
+		byte result[]
+		while(serialHost[0].available){
+			serialHost[0].read();
+		}
+		return result;
+	}
+	else{
+		requestData();
+		return read();
+	}
 }
-bool SerialHost::requestData(){
-	
+void SerialHost::requestData(){
+	serialHost[0].write("a");
 }

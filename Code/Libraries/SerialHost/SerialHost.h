@@ -2,6 +2,7 @@
 #define SerialHost_h
 #include <Arduino.h>
 #include <SoftwareSerial.h>
+#define MILLION 1000000
 class SerialDevice{
 	private:
 		int txPort;
@@ -9,7 +10,7 @@ class SerialDevice{
 		SoftwareSerial* serialHost;
 	public:
 		SerialHost(int,int,int);
-		byte[] read();
+		byte* read();
 		bool getAvailable();
 };
 #endif
