@@ -5,6 +5,7 @@ class InfraredDetection{
 		int* ports;
 	public:
 		void findBall();
+		int getClosestDirection();
 		
 };
 #endif
