@@ -6,6 +6,7 @@ class InfraredDetection{
 	public:
 		void findBall();
 		int getClosestDirection();
+		int getDirection();
 		
 };
 #endif
