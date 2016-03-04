@@ -2,15 +2,16 @@
 #define SerialHost_h
 #include <Arduino.h>
 #include <SoftwareSerial.h>
-#define MILLION 1000000
-class SerialDevice{
+class SerialHost{
 	private:
 		int txPort;
 		int rxPort;
+		int serialRate;
 		SoftwareSerial* serialHost;
 	public:
 		SerialHost(int,int,int);
-		byte* read();
-		bool getAvailable();
+		void init();
+		byte* read(int);
+		void requestData();
 };
 #endif
