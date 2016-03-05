@@ -1,4 +1,4 @@
-
+#ifndef InfraredDetection_h
 class InfraredDetection{
 	private:
 		int length;
