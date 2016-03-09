@@ -1,11 +1,10 @@
 #include "Arduino.h";
 #include "Photoresistor.h";
-Photoresistor::Photoresistor(int port1,int port2,int port3,int port4)
+Photoresistor::Photoresistor(int port1,int port2,int port3)
 {
 prt1=port1;
 prt2=port2;
 prt3=port3;
-prt4=port4;
 max=0;
 min=1023;
 }
@@ -38,16 +37,6 @@ void Photoresistor::calibrate()
 		minValue=read;
 	}
 
-	read=analogRead(prt4);
-	if(read>maxValue){
-		maxValue=read;
-	}
-	if(read<minValue){
-		minValue=read;
-	}
-
-
-
 	if(minValue<min){
 		min=minValue;
 	}
@@ -69,9 +58,4 @@ int Photoresistor::getReading(){
 	if(read<((max+min)/2)){
 		return 1;
 	}
-	read=analogRead(prt4);
-	if(read<((max+min)/2)){
-		return 1;
-	}
-	return 0;
-}
+

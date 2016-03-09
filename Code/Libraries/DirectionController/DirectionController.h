@@ -15,6 +15,6 @@ class DirectionController{
 		void diagTR();
 		void diagBR();
 		void diagTL();
-		void diagTB():
+		void diagTB();
 };
 #endif
