@@ -4,7 +4,8 @@
 #define MOTOR2 1
 class MotorController{
 	private:
-		int actvPort;
+		int actvPort1;
+		int actvPort2;
 
 		int portPower1;
 		int portM1D1;
@@ -20,7 +21,7 @@ class MotorController{
 		int speed1;
 		int speed2;
 	public:
-		MotorController(int,int,int,int,int,int,int,bool,bool);
+		MotorController(int,int,int,int,int,int,int,int,bool,bool);
 		void invert(short);
 		void turnOn(short);
 		void turnOff(short);
