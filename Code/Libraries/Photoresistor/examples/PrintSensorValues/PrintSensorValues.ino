@@ -5,5 +5,5 @@ void setup(){
 }
 void loop(){
     lightSensor.calibrate();
-    Serial.println((String)lightSensor.getValue());
+    Serial.println((String)lightSensor.getReading());
 }
